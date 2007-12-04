@@ -1,6 +1,6 @@
 %define name gtypist
 %define version 2.7
-%define release 3mdk
+%define release  %mkrel 3
 
 Summary:	Gtypist is a universal typing tutor
 Name:		%{name}
