@@ -11,7 +11,6 @@ License:	GPL
 URL: 		http://www.gnu.org/software/gtypist/gtypist.html
 Source: 	ftp://ftp.gnu.org/gnu/gtypist//%{name}-%{version}.tar.bz2
 Buildrequires:	byacc bison libncurses-devel binutils
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Obsoletes:  typist
 Provides:   typist
 
