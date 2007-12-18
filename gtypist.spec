@@ -10,7 +10,7 @@ Group:		Text tools
 License:	GPL
 URL: 		http://www.gnu.org/software/gtypist/gtypist.html
 Source: 	ftp://ftp.gnu.org/gnu/gtypist//%{name}-%{version}.tar.bz2
-Buildrequires:	byacc bison libncurses-devel binutils
+Buildrequires:	byacc bison libncurses-devel binutils emacs
 Obsoletes:  typist
 Provides:   typist
 
