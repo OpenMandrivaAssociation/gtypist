@@ -15,7 +15,6 @@ Obsoletes:  typist
 Provides:   typist
 
 %description
-
 GNU Typist (also called gtypist) is a universal typing  tutor.  You  can
 learn correct typing and improve your skills by practicing its exercises
 on a regular basis.
