@@ -7,6 +7,7 @@ Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 Group:		Text tools
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	GPL
 URL: 		http://www.gnu.org/software/gtypist/gtypist.html
 Source: 	ftp://ftp.gnu.org/gnu/gtypist//%{name}-%{version}.tar.bz2
