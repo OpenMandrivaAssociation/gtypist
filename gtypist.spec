@@ -2,7 +2,7 @@
 %define version 2.7
 %define release  %mkrel 3
 
-Summary:	Gtypist is a universal typing tutor
+Summary:	Universal typing tutor
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
