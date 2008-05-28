@@ -1,6 +1,6 @@
 %define name gtypist
-%define version 2.7
-%define release  %mkrel 4
+%define version 2.8
+%define release  %mkrel 1
 
 Summary:	Universal typing tutor
 Name:		%{name}
@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%{release}
 Group:		Text tools
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-License:	GPL
+License:	GPLv3+
 URL: 		http://www.gnu.org/software/gtypist/gtypist.html
 Source: 	ftp://ftp.gnu.org/gnu/gtypist//%{name}-%{version}.tar.bz2
 Buildrequires:	byacc bison libncurses-devel binutils emacs
@@ -28,14 +28,14 @@ on a regular basis.
 
 %build
 
-%configure
+%configure2_5x
 %make
 
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%makeinstall
+%makeinstall_std
 
 %find_lang %{name}
 
