@@ -1,5 +1,5 @@
 %define name gtypist
-%define version 2.8
+%define version 2.8.1
 %define release  %mkrel 1
 
 Summary:	Universal typing tutor
