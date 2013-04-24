@@ -35,8 +35,6 @@ on a regular basis.
 %find_lang %{name}
 
 
-%post
-%_install_info %{name}.info
 
 
 %preun
