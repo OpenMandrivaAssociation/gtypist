@@ -1,6 +1,6 @@
 %define name gtypist
 %define version 2.8.3
-%define release  %mkrel 2
+%define release   3
 
 Summary:	Universal typing tutor
 Name:		%{name}
