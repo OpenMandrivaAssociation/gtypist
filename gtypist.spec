@@ -37,8 +37,6 @@ on a regular basis.
 
 
 
-%preun
-%_remove_install_info %{name}.info
 
 
 %files -f %{name}.lang
