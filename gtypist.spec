@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%{release}
 Group:		Text tools
 License:	GPLv3+
-URL: 		http://www.gnu.org/software/gtypist/gtypist.html
+URL: 		https://www.gnu.org/software/gtypist/gtypist.html
 Source0: 	ftp://ftp.gnu.org/gnu/gtypist/%{name}-%{version}.tar.bz2
 Buildrequires:	byacc bison pkgconfig(ncurses) binutils emacs
 Obsoletes:	typist
