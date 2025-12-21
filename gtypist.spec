@@ -10,6 +10,11 @@ Group:		Text tools
 License:	GPLv3+
 URL: 		https://www.gnu.org/software/gtypist/gtypist.html
 Source0: 	ftp://ftp.gnu.org/gnu/gtypist/%{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 Buildrequires:	byacc bison pkgconfig(ncurses) binutils emacs
 Obsoletes:	typist
 Provides:	typist
